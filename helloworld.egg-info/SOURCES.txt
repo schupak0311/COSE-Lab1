@@ -1,6 +1,0 @@
-README.txt
-setup.py
-helloworld.egg-info/PKG-INFO
-helloworld.egg-info/SOURCES.txt
-helloworld.egg-info/dependency_links.txt
-helloworld.egg-info/top_level.txt
