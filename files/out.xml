@@ -1,0 +1,22 @@
+<xml>
+  <results>
+    <Match>
+      <Url>http://www.skysports.com/football/fixtures-results</Url>
+      <result>
+        <HomeTeam>Arsenal</HomeTeam>
+        <AwayTeam>West Ham United</AwayTeam>
+        <HomeTeamScore>4</HomeTeamScore>
+        <AwayTeamScore>1</AwayTeamScore>
+      </result>
+    </Match>
+    <Match>
+      <Url>http://www.skysports.com/football/fixtures-results</Url>
+      <result>
+        <HomeTeam>Stoke City</HomeTeam>
+        <AwayTeam>Burnley</AwayTeam>
+        <HomeTeamScore>1</HomeTeamScore>
+        <AwayTeamScore>1</AwayTeamScore>
+      </result>
+    </Match>
+  </results>
+</xml>

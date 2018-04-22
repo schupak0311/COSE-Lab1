@@ -1,26 +1,29 @@
 <?xml version="1.0"?>
 <Sites>
     <Site>
-        <Url> http://www.skysports.com/football-results  </Url>
-            <FirstTeam>
-
-                <Name>/html/body/div[4]/div/div/div[3]/div/div[2]/div/div/span[2]/span/span </Name>
-               
-                
-            </FirstTeam> 
-
-             <!-- <SecondTeam>
-
-                 <Name> </Name>
-             
-             </SecondTeam>
-
-             <Status>
-             
-             </Status> -->
-     
+        <Url>http://www.skysports.com/football/fixtures-results</Url>
+           <Match>
+                <HomeTeam>/html/body/div[4]/div/div/div[3]/div/div[2]/div/div/a/span[2]/span/span</HomeTeam> 
+                <AwayTeam>/html/body/div[4]/div/div/div[3]/div/div[2]/div/div/a/span[4]/span/span</AwayTeam>             
+                <HomeTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div/a/span[3]/span/span</HomeTeamScore>
+                <AwayTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div/a/span[3]/span/span[2]</AwayTeamScore> 
+ 
+            </Match> 
+         
+    </Site>
     <Site>
+        <Url>http://www.skysports.com/football/fixtures-results</Url>
+             <Match>
+                <HomeTeam>/html/body/div[4]/div/div/div[3]/div/div[2]/div/div[2]/a/span[2]/span/span</HomeTeam> 
+                <AwayTeam>/html/body/div[4]/div/div/div[3]/div/div[2]/div/div[2]/a/span[4]/span/span</AwayTeam>             
+                <HomeTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div[2]/a/span[3]/span/span</HomeTeamScore>
+                <AwayTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div[2]/a/span[3]/span/span[2]</AwayTeamScore> 
+ 
+            </Match> 
+        </Site>
 </Sites>
+
+
 
 
 

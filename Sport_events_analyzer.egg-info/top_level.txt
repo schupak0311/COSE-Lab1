@@ -1,1 +1,1 @@
-events_analyzer
+sport_analyzer
