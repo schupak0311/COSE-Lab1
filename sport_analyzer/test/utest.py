@@ -38,7 +38,7 @@ class SitereaderTest(unittest.TestCase):
         self.assertRaises(requests.exceptions.ConnectionError, getSitehtml, 'http://d1d31f')
 
     def test_getMatchResultsfromHtml(self):
-        html = getSitehtml("http://www.skysports.com/football/fixtures-results")
+        html = getSitehtml("http://www.skysports.com/football/fixtures-results/22-April-2018")
         self.assertEqual(getMatchResultsfromHtml(html, self.urls[0]), "Arsenal")
         self.assertEqual(getMatchResultsfromHtml(html, self.urls[1]), "West Ham United")
         self.assertEqual(getMatchResultsfromHtml(html, self.urls[2]), "4")
@@ -46,7 +46,7 @@ class SitereaderTest(unittest.TestCase):
 
     def test_createMatchResult(self):
         site = Site()
-        site.setSiteUrl("http://www.skysports.com/football/fixtures-results")
+        site.setSiteUrl("http://www.skysports.com/football/fixtures-results/22-April-2018")
         site.sethomeTeam(self.urls[0])
         site.setawayTeam(self.urls[1])
         site.sethomeScore(self.urls[2])
