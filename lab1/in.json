@@ -1,0 +1,4 @@
+{
+  "name": "API Football",
+  "url": "https://apifootball.com/api/?action=get_events&from=2016-10-30&to=2016-11-01&league_id=62&APIkey=8468721a762740ea21e2bc1b4a8480ff33d9a31a50c68376bac50594cb2ff184"
+}

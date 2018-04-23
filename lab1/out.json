@@ -1,0 +1,26 @@
+[
+    {
+        "match_awayteam_score": "0",
+        "match_hometeam_score": "2",
+        "league_name": "Premier League",
+        "match_date": "2016-10-30",
+        "match_hometeam_name": "Everton",
+        "match_awayteam_name": "West Ham United"
+    },
+    {
+        "match_awayteam_score": "2",
+        "match_hometeam_score": "0",
+        "league_name": "Premier League",
+        "match_date": "2016-10-30",
+        "match_hometeam_name": "Southampton",
+        "match_awayteam_name": "Chelsea"
+    },
+    {
+        "match_awayteam_score": "1",
+        "match_hometeam_score": "3",
+        "league_name": "Premier League",
+        "match_date": "2016-10-31",
+        "match_hometeam_name": "Stoke City",
+        "match_awayteam_name": "Swansea City"
+    }
+]
