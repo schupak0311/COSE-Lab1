@@ -7,9 +7,7 @@
                 <AwayTeam>/html/body/div[4]/div/div/div[3]/div/div[2]/div/div/a/span[4]/span/span</AwayTeam>             
                 <HomeTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div/a/span[3]/span/span</HomeTeamScore>
                 <AwayTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div/a/span[3]/span/span[2]</AwayTeamScore> 
- 
-            </Match> 
-         
+            </Match>       
     </Site>
     <Site>
         <Url>http://www.skysports.com/football/fixtures-results</Url>
@@ -17,66 +15,7 @@
                 <HomeTeam>/html/body/div[4]/div/div/div[3]/div/div[2]/div/div[2]/a/span[2]/span/span</HomeTeam> 
                 <AwayTeam>/html/body/div[4]/div/div/div[3]/div/div[2]/div/div[2]/a/span[4]/span/span</AwayTeam>             
                 <HomeTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div[2]/a/span[3]/span/span</HomeTeamScore>
-                <AwayTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div[2]/a/span[3]/span/span[2]</AwayTeamScore> 
- 
+                <AwayTeamScore>/html/body/div[4]/div/div/div[3]/div/div/div/div[2]/a/span[3]/span/span[2]</AwayTeamScore>  
             </Match> 
         </Site>
 </Sites>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <?xml version="1.0"?>
-<Sites>
-  <Site>
-      <Url>https://www.oschadbank.ua/ua/</Url>
-      <BuyMoneysUrl>
-           <USD>/html/body/div[3]/div[4]/main/section[2]/div/div/div/div[1]/div/div[1]/span[2]/strong[1]</USD>
-           <EUR>/html/body/div[3]/div[4]/main/section[2]/div/div/div/div[1]/div/div[2]/span[2]/strong[1]</EUR>
-           <RUB>/html/body/div[3]/div[4]/main/section[2]/div/div/div/div[1]/div/div[3]/span[2]/strong[1]</RUB>
-      </BuyMoneysUrl>
-      <SellMoneyUrl>
-          <USD>/html/body/div[3]/div[4]/main/section[2]/div/div/div/div[1]/div/div[1]/span[2]/strong[2]</USD>
-          <EUR>/html/body/div[3]/div[4]/main/section[2]/div/div/div/div[1]/div/div[2]/span[2]/strong[2]</EUR>
-          <RUB>/html/body/div[3]/div[4]/main/section[2]/div/div/div/div[1]/div/div[3]/span[2]/strong[2]</RUB>
-      </SellMoneyUrl>
-  </Site>
-    <Site>
-      <Url>https://alfabank.ua/</Url>
-      <BuyMoneysUrl>
-           <USD>/html/body/div[2]/div[2]/div[1]/div[3]/div/div[2]/div[3]/div[1]/table/tbody/tr[1]/td[2]</USD>
-           <EUR>/html/body/div[2]/div[2]/div[1]/div[3]/div/div[2]/div[3]/div[1]/table/tbody/tr[2]/td[2]</EUR>
-           <RUB>/html/body/div[2]/div[2]/div[1]/div[3]/div/div[2]/div[3]/div[1]/table/tbody/tr[3]/td[2]</RUB>
-      </BuyMoneysUrl>
-      <SellMoneyUrl>
-          <USD>/html/body/div[2]/div[2]/div[1]/div[3]/div/div[2]/div[3]/div[1]/table/tbody/tr[1]/td[3]</USD>
-          <EUR>/html/body/div[2]/div[2]/div[1]/div[3]/div/div[2]/div[3]/div[1]/table/tbody/tr[2]/td[3]</EUR>
-          <RUB>/html/body/div[2]/div[2]/div[1]/div[3]/div/div[2]/div[3]/div[1]/table/tbody/tr[3]/td[3]</RUB>
-      </SellMoneyUrl>
-  </Site>
-</Sites> -->
