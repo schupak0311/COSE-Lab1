@@ -37,9 +37,9 @@ def createMatchResult(site):
     return result
 
 
-arr = []
-for i in getSitesfromXml("./files/in.xml"):
-    res = createMatchResult(i)
-    arr.append(res)
+# arr = []
+# for i in getSitesfromXml("files/in.xml"):
+#     res = createMatchResult(i)
+#     arr.append(res)
 
-writeSitesToXml(arr, "./files/out.xml")
+# writeSitesToXml(arr, "files/out.xml")
