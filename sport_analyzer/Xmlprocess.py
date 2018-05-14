@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import xml.etree.ElementTree as ET
 from lxml import etree
 from sport_analyzer.Site import Site
@@ -23,7 +22,7 @@ def getSitesfromXml(file):
                         elif match.tag == "HomeTeamScore":
                             site.sethomeScore(match.text)
                         elif match.tag == "AwayTeamScore":
-                            site.setawayScore(match.text)       
+                            site.setawayScore(match.text)
             sites.append(site)
     except FileNotFoundError:
         print("Such file doesn't exist!")
