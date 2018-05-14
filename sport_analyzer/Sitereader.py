@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import requests
 import urllib.error
 from lxml import html
@@ -29,17 +28,18 @@ def getMatchResultsfromHtml(html, xpath):
 
 def createMatchResult(site):
     html = getSitehtml(site.site_url)
-    result = MatchResults(site.site_url,
+    result = MatchResults(
+                           site.site_url,
                            getMatchResultsfromHtml(html, site.homeTeam_url),
                            getMatchResultsfromHtml(html, site.awayTeam_url),
                            getMatchResultsfromHtml(html, site.homeScore_url),
-                           getMatchResultsfromHtml(html, site.awayScore_url))
+                           getMatchResultsfromHtml(html, site.awayScore_url)
+    )
     return result
 
 
 # arr = []
 # for i in getSitesfromXml("files/in.xml"):
-#     res = createMatchResult(i)
-#     arr.append(res)
-
+#    arr.append(res)
+#
 # writeSitesToXml(arr, "files/out.xml")
