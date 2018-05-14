@@ -1,1 +1,0 @@
-from Sitereader import createMatchResult
